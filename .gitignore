@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+
+# Node / JS
+node_modules/
+
+# Builds / dist
+public/dist/
+dist/
+build/
+
+# Data / outputs
+uploads/
+outputs/
+logs/
+
+# Large models / binaries
+*.pt
+*.onnx
+*.ckpt
+
+# Secrets
+"final fire"/mystic-hull-385718-8f4e22e289bd.json
+*service-account*.json
+*credentials*.json
+*.secret.*

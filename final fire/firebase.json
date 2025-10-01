@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": "public/dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/python_ai_service/**",
+      "**/src/**",
+      "**/*.py",
+      "**/*.exe",
+      "**/package*.json",
+      "**/tsconfig*.json",
+      "**/vite.config.ts",
+      "**/tailwind.config.ts",
+      "**/postcss.config.js",
+      "**/eslint.config.js"
+    ],
+    "rewrites": [
+      { "source": "**", "destination": "/index.html" }
+    ]
+  }
+}
